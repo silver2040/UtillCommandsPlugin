@@ -1,0 +1,20 @@
+  name: Util Commands
+  main: com.silver2040.utill_commands.Main
+  version: 0.0.1
+  permissions:
+    agility.*:
+      description: Gives access to all agility commands
+      children:
+        agility.speed: true
+        agility.fly: true
+        agility.effects: true
+    agility.speed:
+      description: Allows you to change walkspeed
+      default: op
+    agility.fly:
+      description: gives permission to fly and fly related commands (flyspeed, etc.)
+      default: op
+    agility.effects:
+      description: Lets you set player effects
+      default: op
+  commands:
